@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dab.css">
+</head>
+
+<body>
+    <h1>TV SERIES</h1>
+    <img class="akali" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_3.jpg"></img>
+    <div class="series">
+        <table class="table clickable-row">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Canal</th>
+                    <th>Temporadas</th>
+                </tr>
+            </thead>
+            <tbody id="courses">
+            </tbody>
+        </table>
+        <div class="card" id="card" style="width: 18rem;">
+        </div>
+        <h3 class="dab">Average seasons</h3>
+        <h2 id="dab" class="dab">dab</h2>
+    </div>
+    <script> var exports = {}; </script>
+    <script type="module" src="./serie.js"></script>
+    <script type="module" src="./data.js"></script>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
