@@ -15,22 +15,26 @@
     <h1>TV SERIES</h1>
     <img class="akali" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_3.jpg"></img>
     <div class="series">
-        <table class="table clickable-row">
-            <thead class="thead-dark">
-                <tr>
-                    <th>Id</th>
-                    <th>Nombre</th>
-                    <th>Canal</th>
-                    <th>Temporadas</th>
-                </tr>
-            </thead>
-            <tbody id="courses">
-            </tbody>
-        </table>
+        <div class="seriesTable">
+            <table class="table table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Id</th>
+                        <th>Nombre</th>
+                        <th>Canal</th>
+                        <th>Temporadas</th>
+                    </tr>
+                </thead>
+                <tbody id="courses">
+                </tbody>
+            </table>
+        </div>
         <div class="card" id="card" style="width: 18rem;">
         </div>
-        <h3 class="dab">Average seasons</h3>
-        <h2 id="dab" class="dab">dab</h2>
+        <div class="average">
+            <h3 class="dab">Average seasons</h3>
+            <h2 id="dab" class="dab">dab</h2>
+        </div>
     </div>
     <script> var exports = {}; </script>
     <script type="module" src="./serie.js"></script>

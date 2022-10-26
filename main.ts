@@ -21,8 +21,8 @@ function meterSeries(dab: Serie[]): void {
                                     <div class="card-body">
                                         <h5 class="card-title">${c.nombre}</h5>
                                         <p class="card-text">${c.resumen}</p>
-                                        <a href="${c.informacion}" class="btn btn-primary">Click Me</a>
-                                    </div>`
+                                    </div>
+                                    <a href="${c.informacion}" class="btn btn-primary">Click Me</a>`
             card.appendChild(cardElement)                        
             console.log(c.nombre)
         });

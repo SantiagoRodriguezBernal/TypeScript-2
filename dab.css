@@ -13,14 +13,29 @@
     text-align: center;
 }
 
-.card{
-    
-}
-.series{
-    margin-right: 40%;
+.card-body{
+    margin-bottom: 10px;
+    height: 270px;
+    overflow-y: scroll;
 }
 
-table{
+.card{
+    overflow-y: hidden;
+    height: 358px;
     text-align: center;
-    display: inline;
+}
+.series{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.average{
+    width: 100%;
+}
+
+.seriesTable{
+    width: 70%;
+    margin-right: 40px;
+    text-align: center;
 }
